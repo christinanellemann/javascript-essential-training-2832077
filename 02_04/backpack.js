@@ -1,3 +1,8 @@
+/**
+ * function updateBackpack()
+ * Outputs HTML
+ * @param {string} update
+ */
 const updateBackpack = (update) => {
   let main = document.querySelector("main");
   main.innerHTML = markup(backpack);
